@@ -14,12 +14,12 @@ function change_style2(){
     a = document.getElementById('show');
     b = window.getComputedStyle(a).backgroundColor;
     alert (b);
-    if ( b != "rgb(255,0,0)" )
+    if ( b != "rgb(0,255,0)" )
     {
-        a.style.backgroundColor = "rgb(255,0,0)"
+        a.style.backgroundColor = "rgb(0,255,0)"
     }
     else
-        a.style.backgroundColor = "rgb(0,255,0)"
+        a.style.backgroundColor = "rgb(255,0,0)"
 }
 
 
